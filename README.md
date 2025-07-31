@@ -27,7 +27,7 @@ This container provides a transparent TCP proxy that regularly queries Redis Sen
 
 services:
   redis-proxy:
-    image: ghcr.io/DmCHQ/redis-sentinel-proxy:latest
+    image: dockerlehit/redis-sentinel-proxy:latest
     ports:
       - "9736:9736"
     environment:
